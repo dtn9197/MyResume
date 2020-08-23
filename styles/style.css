@@ -12,6 +12,14 @@ body {
 	background-attachment: fixed;
 }
 
+#major {
+	font-style: italic;
+	font-size: 1.2rem;
+}
+#school {
+	font-size: 1.2rem;
+}
+
 
 #resume{
 	border: 7px solid #2082F3;
@@ -20,6 +28,12 @@ body {
 	background-color: #D1E1EA;
 	background: radial-gradient(#D1E1EA 60%,rgb(12, 217, 232));
 	text-shadow: 0 0 1px black;
+}
+
+#skill-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	row-gap: 15px;
 }
 
 
